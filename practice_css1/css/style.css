@@ -1,0 +1,50 @@
+html {
+    border: 3px solid green;
+}
+
+body {
+    border: 1px solid red;
+}
+
+.title {
+    color: yellow;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.title {
+    color: darkgrey;
+    font-size: 30px;
+}
+
+p {
+    color: aquamarine;
+}
+
+span {
+    font-size: 18px;
+    color: crimson;
+    background-color: darkseagreen;
+}
+
+
+#title2 {
+    color: rgb(220, 239, 245);
+}
+
+#title1 {
+    color: rgba(255, 167, 0, 0.56);
+}
+
+article {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 900;
+    color: brown;
+}
+
+article>span {
+    color: aquamarine;
+    background-color: beige;
+}
