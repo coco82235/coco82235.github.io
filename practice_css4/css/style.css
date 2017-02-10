@@ -1,0 +1,51 @@
+.text:after {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+.text:before {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+.thumbnail {
+    width: calc(100%/3);
+    float: left;
+}
+
+nav li>ul {
+    display: none;
+}
+
+nav li:hover {
+    background-color: rgba(215, 243, 250, 0.99);
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+tr:nth-child(3n-1) {
+    background-color: rgba(252, 107, 194, 0.92);
+}
+
+tr:hover {
+    background-color: darkgrey;
+}
+
+.thumbnail:nth-child(6n+1),
+.thumbnail:nth-child(6n+2),
+.thumbnail:nth-child(6n+3) {
+    background-color: deepskyblue;
+}
+
+.thumbnail:first-child {
+    width: 100%;
+    background-color: fuchsia;
+}
