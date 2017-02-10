@@ -1,0 +1,33 @@
+/*
+    我的基礎設定
+    所有標籤統一設定
+*/
+
+
+/* todo: *號選擇器*/
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* reset css*/
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+footer,
+aside,
+article,
+section{
+    margin: 0;
+    padding: 0;
+}
